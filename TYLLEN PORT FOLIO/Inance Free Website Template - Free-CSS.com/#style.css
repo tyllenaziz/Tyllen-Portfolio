@@ -1,0 +1,25 @@
+/* Apply black background to specific sections */
+.hero_area,
+.header_section,
+.slider_section,
+.feature_section,
+.about_section,
+.professional_section,
+.service_section,
+.client_section,
+.contact_section,
+.info_section,
+.footer_section {
+  background-color: black;
+  color: white; /* Ensures text is visible on black background */
+}
+
+/* Ensure text links and other text are white for visibility */
+.header_top .contact_nav a,
+.navbar-nav .nav-link,
+.btn-box a,
+.info_items .item p {
+  color: white;
+}
+
+/* Maintain existing colors for other sections */
